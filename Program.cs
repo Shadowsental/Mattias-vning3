@@ -59,6 +59,7 @@ namespace MattiasÖvning3
                 Console.WriteLine("You can't be younger than 1.");
             }
 
+
             Console.Write("First Name: ");
             string firstname = Console.ReadLine();
             try
@@ -77,6 +78,7 @@ namespace MattiasÖvning3
                 Console.WriteLine("Your first name can't be longer than 10 characters, or shorter than 2 characters.");
             }
 
+
             Console.Write("Last Name: ");
             string lastname = Console.ReadLine();
             try
@@ -93,6 +95,7 @@ namespace MattiasÖvning3
             {
                 Console.WriteLine("Your last name can't be longer than 15 characters, or shorter than 3 characters.");
             }
+
 
             Console.Write("Type in your height in centimeters. (only numbers): ");
             double height = double.Parse(Console.ReadLine());
@@ -112,6 +115,7 @@ namespace MattiasÖvning3
                 Console.WriteLine("You can't be shorter than 0.90 meters or taller than 3 meters.");
             }
 
+
             Console.Write("Type in your weight in kg. (only numbers): ");
             double weight = double.Parse(Console.ReadLine());
             try
@@ -129,6 +133,7 @@ namespace MattiasÖvning3
             {
                 Console.WriteLine("You can't be lighter than 35kg.");
             }
+
 
             handler.CreatePerson(age, firstname, lastname, height, weight);
         }
