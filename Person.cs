@@ -54,7 +54,7 @@ namespace MattiasÖvning3
 
         public override string ToString()
         {
-            return $"Name: {fName} {lName}. Age: {age}. Height: {height}. Weight: {weight}";
+            return $"Name: {fName} {lName}. Age: {age}. Height: {height}cm. Weight: {weight}kg";
         }
     }
 }
